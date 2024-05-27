@@ -1,0 +1,34 @@
+.main-card {
+    width: 400px;
+    height: 300px;
+    background-image: url('../../assets/images/1c0ee0c0-b9fb-86d9-64c6-a94cfe915821.jpeg');
+    /* border: 3px solid black; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-box {
+    width: 130px;
+    height: 130px;
+    background-color: azure;
+    border: 2px solid maroon;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-dtl {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-direction: column;*/
+    padding-left: 10px;
+}
+
+img {
+    width: 100px;
+}
